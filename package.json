@@ -1,0 +1,63 @@
+{
+  "name": "volunteer-service",
+  "version": "1.0.0",
+  "description": "Volunteer Service Node.js Server/API for The Ronald McDonald House of Central Indiana",
+  "author": "Chris McDonald, Austin Bange, Alex Sottile, Jordan Sloan",
+  "license": "MIT",
+  "homepage": "http://www.rmhccin.org/",
+  "main": "src/main/node.js/com.ronaldmcdonaldhouse.volunteerservice/server/www.js",
+  "devDependencies": {
+    "bower": "latest",
+    "grunt": "^0.4.5",
+    "grunt-cli": "latest",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-jscs": "^2.8.0",
+    "grunt-karma": "^0.11.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.5",
+    "load-grunt-tasks": "^3.2.0",
+    "matchdep": "^0.3.0",
+    "angular-mocks": "~1.4",
+    "eslint": "~1.4",
+    "gulp": "~3.9",
+    "gulp-autoprefixer": "~2.3",
+    "gulp-connect": "~2.2",
+    "gulp-eslint": "~1.0",
+    "gulp-file-insert": "~1.0",
+    "gulp-htmlmin": "~1.1",
+    "gulp-minify-css": "~1.2",
+    "gulp-minify-html": "~1.0",
+    "gulp-protractor": "~1.0",
+    "gulp-rename": "~1.2",
+    "gulp-replace": "~0.5",
+    "gulp-sass": "~2.0",
+    "gulp-size": "~2.0",
+    "gulp-uglify": "~1.2",
+    "karma-coveralls": "~1.1",
+    "node-sass": "^3.3",
+    "protractor": "~2.2",
+    "replacestream": "~4.0",
+    "run-sequence": "~1.1"
+  },
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-animate": "~1.4",
+    "angular-aria": "~1.4",
+    "angular-sanitize": "~1.4",
+    "angular-material": "~0.11",
+    "fullcalendar": "~2.7.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angular-ui/ui-calendar.git"
+  }
+}
