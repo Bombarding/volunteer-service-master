@@ -60,13 +60,13 @@ app.use('/email', email);
  * Handle 404 & 500 errors
  */
 app.use(function(err, req, res){
-    //res.status(404);
+    res.status(404);
     res.send("404 NOT FOUND");
     if(err) throw err;
 });
 
 app.use(function(err, req, res){
-    //res.status(500);
+    res.status(500);
     res.send("500 SERVER ERROR");
     if(err) throw err;
 });

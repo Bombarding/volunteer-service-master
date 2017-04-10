@@ -206,7 +206,7 @@ angular.module('ui.calendar', [])
                 if (!fullCalendarConfig.lang && !fullCalendarConfig.locale || fullCalendarConfig.useNgLocale) {
                     // Configure to use locale names by default
                     var tValues = function (data) {
-                        // convert {0: "Jan", 1: "Feb", ...} to ["Jan", "Feb", ...]
+                        //convert {0: "Jan", 1: "Feb", ...} to ["Jan", "Feb", ...]
                         return (Object.keys(data) || []).reduce(
                             function (rslt, el) {
                                 rslt.push(data[el]);

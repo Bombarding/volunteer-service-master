@@ -47,11 +47,19 @@ router.get('/:calendar_id', function(req, res) {
  * Add new calendar data
  */
 router.post('/new', function(req, res) {
+    console.log(req.body);
     Calendar.create({
         calendar_id: req.body.calendar_id,
         service_ids: req.body.service_ids,
         year: req.body.year,
         month: req.body.year
+        }, {
+        organization_name: req.body.organization_name,
+        contact_name: req.body.contact_name,
+        phone_number: req.body.phone_number,
+        contact_email: req.body.contact_email,
+        number_of_volunteers: req.body.number_of_volunteers,
+        type_of_service_project: req.body.type_of_service_project
     }, function (err, claim_data) {
         if (err) throw err;
         res.send(claim_data);
@@ -77,6 +85,7 @@ router.post('/update', function(req, res) {
         type_of_service_project: req.body.type_of_service_project
     }, function(err, calendar_data) {
         if(err) throw err;
+        //console.log(calendar_data);
         res.send(calendar_data);
     });
 });
