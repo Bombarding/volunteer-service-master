@@ -79,6 +79,11 @@ sudo ./mongo (client) (in new terminal)
     - DEBUG=express:* node www.js (For Debug Web Server)
 
 Server should be running on port 3000
+
+*NOTE*
+
+Depending on Operating System (MAC OSX~), The grunt serve command will launch in Safari and will not allow an update to the submit button within Safari. Please copy the link http://localhost:8000/#/calendar and place it into firefox in order to update. 
+Gotta love OSX Am_I_Right?
 ```
 
 Install Calendar
