@@ -1,0 +1,159 @@
+Alexanders-MacBook-Pro ☢  ~/volunteer-service-master/src/main/nodejs/com.ronaldmcdonaldhouse.volunteerservice/server ➤ 3e8bb84|master⚡
+3380 ± : DEBUG=express:* node www.js                              ⏎ [1d4h48m] ✹
+  express:application set "x-powered-by" to true +0ms
+  express:application set "etag" to 'weak' +4ms
+  express:application set "etag fn" to [Function: wetag] +2ms
+  express:application set "env" to 'development' +0ms
+  express:application set "query parser" to 'extended' +0ms
+  express:application set "query parser fn" to [Function: parseExtendedQueryString] +0ms
+  express:application set "subdomain offset" to 2 +0ms
+  express:application set "trust proxy" to false +1ms
+  express:application set "trust proxy fn" to [Function: trustNone] +0ms
+  express:application booting in development mode +0ms
+  express:application set "view" to [Function: View] +0ms
+  express:application set "views" to '/Users/Alex/volunteer-service-master/src/main/nodejs/com.ronaldmcdonaldhouse.volunteerservice/server/views' +0ms
+  express:application set "jsonp callback name" to 'callback' +0ms
+  express:router use '/' query +8ms
+  express:router:layer new '/' +0ms
+  express:router use '/' expressInit +1ms
+  express:router:layer new '/' +0ms
+  express:router use '/' jsonParser +0ms
+  express:router:layer new '/' +0ms
+  express:router use '/' urlencodedParser +2ms
+  express:router:layer new '/' +0ms
+  express:router use '/' cookieParser +0ms
+  express:router:layer new '/' +0ms
+  express:router use '/' corsMiddleware +1ms
+  express:router:layer new '/' +0ms
+  express:router use '/' errorHandler +0ms
+  express:router:layer new '/' +0ms
+  express:router use '/' serveStatic +0ms
+  express:router:layer new '/' +1ms
+  express:router use '/' <anonymous> +0ms
+  express:router:layer new '/' +1ms
+  express:router use '/' methodOverride +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/' +8ms
+  express:router:layer new '/' +0ms
+  express:router:route get '/' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/:month' +1ms
+  express:router:layer new '/:month' +0ms
+  express:router:route get '/:month' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/:calendar_id' +0ms
+  express:router:layer new '/:calendar_id' +0ms
+  express:router:route get '/:calendar_id' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/new' +0ms
+  express:router:layer new '/new' +0ms
+  express:router:route post '/new' +1ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/update' +0ms
+  express:router:layer new '/update' +0ms
+  express:router:route post '/update' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/' +2ms
+  express:router:layer new '/' +0ms
+  express:router:route get '/' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/:month/:year' +0ms
+  express:router:layer new '/:month/:year' +4ms
+  express:router:route get '/:month/:year' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/new' +1ms
+  express:router:layer new '/new' +0ms
+  express:router:route post '/new' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/update' +0ms
+  express:router:layer new '/update' +0ms
+  express:router:route post '/update' +0ms
+  express:router:layer new '/' +0ms
+  express:router:route new '/send' +1ms
+  express:router:layer new '/send' +0ms
+  express:router:route post '/send' +0ms
+  express:router:layer new '/' +0ms
+  express:router use '/calendar' router +0ms
+  express:router:layer new '/calendar' +0ms
+  express:router use '/service' router +0ms
+  express:router:layer new '/service' +0ms
+  express:router use '/email' router +0ms
+  express:router:layer new '/email' +0ms
+  express:router use '/' <anonymous> +1ms
+  express:router:layer new '/' +0ms
+  express:router use '/' <anonymous> +0ms
+  express:router:layer new '/' +0ms
+  express:application set "port" to '3000' +0ms
+Ronald McDonald House Volunteer Service
+
+
+  express:router dispatching GET /service/4/2017 +8s
+  express:router query  : /service/4/2017 +1ms
+  express:router expressInit  : /service/4/2017 +1ms
+  express:router jsonParser  : /service/4/2017 +1ms
+  express:router urlencodedParser  : /service/4/2017 +1ms
+  express:router cookieParser  : /service/4/2017 +0ms
+  express:router corsMiddleware  : /service/4/2017 +0ms
+  express:router errorHandler  : /service/4/2017 +1ms
+  express:router serveStatic  : /service/4/2017 +0ms
+  express:router <anonymous>  : /service/4/2017 +4ms
+  express:router methodOverride  : /service/4/2017 +0ms
+  express:router trim prefix (/service) from url /service/4/2017 +0ms
+  express:router router /service : /service/4/2017 +0ms
+  express:router dispatching GET /4/2017 +1ms
+  express:router dispatching OPTIONS /service/new +25s
+  express:router query  : /service/new +1ms
+  express:router expressInit  : /service/new +0ms
+  express:router jsonParser  : /service/new +1ms
+  express:router urlencodedParser  : /service/new +1ms
+  express:router cookieParser  : /service/new +0ms
+  express:router corsMiddleware  : /service/new +1ms
+  express:router dispatching OPTIONS /email/send +5ms
+  express:router query  : /email/send +0ms
+  express:router expressInit  : /email/send +0ms
+  express:router jsonParser  : /email/send +0ms
+  express:router urlencodedParser  : /email/send +0ms
+  express:router cookieParser  : /email/send +1ms
+  express:router corsMiddleware  : /email/send +0ms
+  express:router dispatching GET /service/4/2017 +3ms
+  express:router query  : /service/4/2017 +0ms
+  express:router expressInit  : /service/4/2017 +0ms
+  express:router jsonParser  : /service/4/2017 +0ms
+  express:router urlencodedParser  : /service/4/2017 +1ms
+  express:router cookieParser  : /service/4/2017 +0ms
+  express:router corsMiddleware  : /service/4/2017 +0ms
+  express:router errorHandler  : /service/4/2017 +0ms
+  express:router serveStatic  : /service/4/2017 +0ms
+  express:router dispatching GET /service/4/2017 +1ms
+  express:router query  : /service/4/2017 +0ms
+  express:router expressInit  : /service/4/2017 +0ms
+  express:router jsonParser  : /service/4/2017 +0ms
+  express:router urlencodedParser  : /service/4/2017 +0ms
+  express:router cookieParser  : /service/4/2017 +1ms
+  express:router corsMiddleware  : /service/4/2017 +0ms
+  express:router errorHandler  : /service/4/2017 +0ms
+  express:router serveStatic  : /service/4/2017 +0ms
+  express:router <anonymous>  : /service/4/2017 +4ms
+  express:router methodOverride  : /service/4/2017 +0ms
+  express:router trim prefix (/service) from url /service/4/2017 +1ms
+  express:router router /service : /service/4/2017 +0ms
+  express:router dispatching GET /4/2017 +0ms
+  express:router <anonymous>  : /service/4/2017 +3ms
+  express:router methodOverride  : /service/4/2017 +0ms
+  express:router trim prefix (/service) from url /service/4/2017 +0ms
+  express:router router /service : /service/4/2017 +0ms
+  express:router dispatching GET /4/2017 +0ms
+  express:router dispatching GET /service/4/2017 +266ms
+  express:router query  : /service/4/2017 +0ms
+  express:router expressInit  : /service/4/2017 +1ms
+  express:router jsonParser  : /service/4/2017 +0ms
+  express:router urlencodedParser  : /service/4/2017 +0ms
+  express:router cookieParser  : /service/4/2017 +0ms
+  express:router corsMiddleware  : /service/4/2017 +0ms
+  express:router errorHandler  : /service/4/2017 +0ms
+  express:router serveStatic  : /service/4/2017 +0ms
+  express:router <anonymous>  : /service/4/2017 +0ms
+  express:router methodOverride  : /service/4/2017 +0ms
+  express:router trim prefix (/service) from url /service/4/2017 +0ms
+  express:router router /service : /service/4/2017 +0ms
+  express:router dispatching GET /4/2017 +0ms

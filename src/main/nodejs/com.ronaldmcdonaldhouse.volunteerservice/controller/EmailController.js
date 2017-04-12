@@ -36,8 +36,10 @@ router.post('/send', function(req, res) {
             subject: 'New Event: Volunteer Service', // Subject line
             text: text //, // plaintext body
         };
-        transporter.sendMail(mailOptions, function(error, info){
-            if(error){
+        transporter.sendMail(mailOptions, function(error, info)
+        {
+            if(error)
+            {
                 console.log(error);
                 res.json({yo: 'error'});
             }else{

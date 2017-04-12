@@ -162,7 +162,7 @@ volunteerService.controller('CalendarController', function($http, $scope, $compi
         };
 
         $scope.getEventsMonth = function(month, year) {
-            $http({
+            $http({/*/service/*/
                 method: 'GET',
                 url: 'http://localhost:3000/service/' + month + '/' + year
             }).then(function successCallback(response){
@@ -190,8 +190,11 @@ volunteerService.controller('CalendarController', function($http, $scope, $compi
                 }
             }).then(function successCallback(response){
                 console.log(response);
-            }, function errorCallback(response) {
-            });
+            },
+                function errorCallback(response)
+                {
+                    console.log(response);
+                });
         };
 
         $scope.postEmail = function() {
@@ -212,7 +215,9 @@ volunteerService.controller('CalendarController', function($http, $scope, $compi
                 }
             }).then(function successCallback(response){
                 console.log(response);
-            }, function errorCallback(response) {
+            }, function errorCallback(response)
+            {
+                console.log(response);
             });
         };
 
