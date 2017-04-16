@@ -1,4 +1,5 @@
 ```
+Dev: Instructions
 Usage
     - sudo bower install
 Minify
@@ -19,6 +20,34 @@ Usage
 Local Server
     -node www
     -DEBUG=express:* node www.js
+    
+Previous Instructions:
+> Find Previous Repository Here: https://github.com/chrismcdonald0111/volunteer-service
+
+> Install Node.js
+
+> Install Packages: sudo npm install
+
+> Install bower: sudo npm install -g bower
+
+> Grunt install: npm install -g grunt-cli
+> Dev Updates:?
+	npm install grunt-contrib-connect --save-dev
+	npm install grunt-contrib-jshint --save-dev
+	npm install grunt-contrib-uglify --save-dev
+	npm install grunt-jscs --save-dev
+	npm install karma karma-coverage --save-dev
+    
+> Launch localhost@8000: grunt serve (Simply in the volunteer-service-master)
+
+> *** Back End ***
+
+> Enter nodejs directory and run: sudo npm install (src/main/nodejs/com/...)
+
+> Enter Server Directory and run: node www (src/main/nodejs/com/server)
+
+Server should be running on port 3000
+    
 ```
 
 # Volunteer-Service-Master
