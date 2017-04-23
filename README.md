@@ -1,4 +1,8 @@
 ```
+Video: https://www.youtube.com/watch?v=G6yYz0PkcVM
+```
+
+```
 Dev: Instructions
 Usage
     - sudo bower install
